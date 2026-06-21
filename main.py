@@ -10,8 +10,8 @@ import sys
 
 from PyQt6.QtWidgets import QApplication, QMessageBox
 
-from gui.main_window import MainWindow
-from core.utils import is_admin, relaunch_as_admin
+from main_window import MainWindow
+from utils import is_admin, relaunch_as_admin
 
 
 def main():

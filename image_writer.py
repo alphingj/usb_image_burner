@@ -19,8 +19,8 @@ import time
 
 from PyQt6.QtCore import QThread, pyqtSignal
 
-from core.utils import get_platform, human_size
-from core.device_manager import StorageDevice
+from utils import get_platform, human_size
+from device_manager import StorageDevice
 
 CHUNK_SIZE = 4 * 1024 * 1024  # 4 MiB
 

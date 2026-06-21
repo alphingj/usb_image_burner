@@ -14,7 +14,7 @@ import subprocess
 from dataclasses import dataclass, field
 from typing import List
 
-from core.utils import get_platform, human_size
+from utils import get_platform, human_size
 
 
 @dataclass

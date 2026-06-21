@@ -34,13 +34,11 @@ right drive is still yours.
 ```
 usb_image_burner/
 ├── main.py                  # entry point, privilege check
-├── requirements.txt
-├── core/
-│   ├── utils.py              # platform detection, elevation, formatting
-│   ├── device_manager.py     # cross-platform USB device discovery
-│   └── image_writer.py       # background QThread that does the actual write
-└── gui/
-    └── main_window.py        # PyQt6 window/widgets
+├── utils.py               # platform detection, elevation, formatting
+├── device_manager.py      # cross-platform USB device discovery
+├── image_writer.py        # background QThread that does the actual write
+├── main_window.py         # PyQt6 window/widgets
+└── requirements.txt
 ```
 
 ## Setup
@@ -124,4 +122,3 @@ attached). The Windows- and macOS-specific code paths (PowerShell/`Get-Disk`,
 behavior but have **not** been run on real Windows or macOS hardware —
 test carefully with a spare/non-critical USB drive before relying on this
 for anything important.
-# usb_image_burner

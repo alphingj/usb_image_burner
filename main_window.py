@@ -13,9 +13,9 @@ from PyQt6.QtWidgets import (
     QFileDialog, QMessageBox, QGroupBox, QSizePolicy,
 )
 
-from core.device_manager import DeviceManager, StorageDevice
-from core.image_writer import ImageWriterThread
-from core.utils import human_size, get_platform
+from device_manager import DeviceManager, StorageDevice
+from image_writer import ImageWriterThread
+from utils import human_size, get_platform
 
 
 class MainWindow(QMainWindow):
